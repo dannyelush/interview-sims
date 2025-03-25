@@ -43,6 +43,7 @@ interface InterviewCardProps {
   userId?: string;
   role: string;
   type: string;
+  coverImage: string;
   techstack: string[];
   createdAt?: string;
 }
